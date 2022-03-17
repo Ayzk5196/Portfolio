@@ -6,9 +6,11 @@ h1{
     color: black;
 }
 .header{
+    border:solid;
     background-color: cadetblue;
     display:flex;
     justify-content: space-between;
+    padding-left:30px;
 }
 .disc{
     display:flex;
@@ -26,4 +28,9 @@ h1{
 }
 p,h2{
     text-align: center;
+    color:#7AD7AD;
+    font-size:30px;
+}
+body{
+    background-color:#808080;
 }
